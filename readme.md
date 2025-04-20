@@ -8,7 +8,7 @@ Este projeto implementa uma meta-heurística de busca local para resolver o prob
 #### Descrição do Problema
 
 Dado um conjunto de itens com:
-- **Peso** \( s_i \in (0, 1] \)
+- **Peso** 0.1 até 1.0
 - **Custo** associado
 
 O objetivo é empacotar todos os itens em bins (caixas) de capacidade 1, de forma a:
