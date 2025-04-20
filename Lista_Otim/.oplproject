@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="1.racao" category="opl">
+            			
+            <ref name="1.Problema_da_Racao.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="2.Dieta" category="opl">
+            			
+            <ref name="2.Problema_da_Dieta.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="3.Plantio" category="opl">
+            			
+            <ref name="3.Problema_do_Plantio.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="4.Tintas" category="opl">
+            			
+            <ref name="4.Problema_das_Tintas.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="6.FluxoMax" category="opl">
+            			
+            <ref name="6.Problema_FluxoMax.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="5.Transporte" category="opl">
+            			
+            <ref name="5.Problema_do_Transporte.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="7.escalonamento" category="opl">
+            			
+            <ref name="7.Problema_de_escalonamentohor.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="10.NumPad" category="opl">
+            			
+            <ref name="10.Problema_de_Pad.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="8.Cobertura" category="opl">
+            			
+            <ref name="8.Problema_de_cobertura.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="9.mochila" category="opl">
+            			
+            <ref name="9.Problema_da_mochila.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="11.Facilities" category="opl">
+            			
+            <ref name="11.Problema_das_Facilities.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="12.Frequencia" category="opl">
+            			
+            <ref name="12.Problema_de_Frequencia.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="13.CliqueMax" category="opl">
+            			
+            <ref name="13.Problema_da_CliqueMax.mod" type="model">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
+</project>
