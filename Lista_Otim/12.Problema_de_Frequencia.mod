@@ -4,7 +4,7 @@ int n = 6; // número de antenas
 range Antena = 1..n;
 range Freq = 1..n; // máximo de frequências possíveis
 
-// Conflitos: pares de antenas que não podem compartilhar a mesma frequência
+// Pares de antenas que não podem compartilhar a mesma frequência
 tuple Conflito {
   int i;
   int j;

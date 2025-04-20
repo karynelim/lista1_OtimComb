@@ -1,5 +1,5 @@
 
-//Problema 1 - Problema da ração
+//Problema da ração
 
 // Variáveis de decisão
 dvar float+ x1; // Quantidade de ração AMGS

@@ -1,3 +1,4 @@
+//Fluxo Máximo
 {string} NODES = {"s", "a", "b", "c", "d", "t"};
 
 tuple ArcType {

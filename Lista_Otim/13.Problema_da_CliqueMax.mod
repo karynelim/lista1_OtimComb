@@ -3,7 +3,6 @@
 int n = 10; //número de vértices no grafo
 range V = 1..n;
 
-// ------------------------------
 // Arestas do grafo (apenas i < j)
 tuple Edge { int i; int j; }
 {Edge} E = {
@@ -17,21 +16,17 @@ tuple Edge { int i; int j; }
   <8,9>, <8,10>
 };
 
-// ------------------------------
 // Gerar pares (i,j) não conectados
 tuple Pair { int i; int j; }
 {Pair} NP = 
   { <i,j> | i,j in V : i < j && !(<i,j> in E) };
 
-// ------------------------------
 // Variáveis de decisão
 dvar boolean x[V];  // x[i] = 1 se vértice i pertence à clique
 
-// ------------------------------
-// Função objetivo
+// Função objetivo: maximizar o subconjunto de vértices que de um grafo que todos os pares de vértices no subconjunto estão conectados por uma aresta
 maximize sum(i in V) x[i];
 
-// ------------------------------
 // Restrições
 subject to {
   // Se não há aresta entre i e j, então não podem estar juntos na clique

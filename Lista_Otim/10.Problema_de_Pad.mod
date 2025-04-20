@@ -1,3 +1,5 @@
+//Problema de Padrões
+
 int numP = 4;
 range Padrao = 1..numP;
 
@@ -18,7 +20,7 @@ dvar int+ z;         // número de latinhas completas
 dvar int+ corpos_sobrando;
 dvar int+ tampas_sobrando;
 
-// Função objetivo: lucro total
+// Função objetivo: maximizar o lucro total da produção
 maximize 
   50 * z - 3 * tampas_sobrando - 50 * corpos_sobrando;
 
@@ -31,7 +33,7 @@ subject to {
 
  // Restrição de tempo total
  // sum(p in Padrao) tempo[p] * x[p] <= tempo_limite;
- //Como no problema não tem limite de tempo, não foi considerada a restrição
+ //Como no problema não considera limite de tempo, não foi considerada a restrição
 
   // Definição dos totais de corpos e tampas
   sum(p in Padrao) num_corpo[p] * x[p] == z + corpos_sobrando;

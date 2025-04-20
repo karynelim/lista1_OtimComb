@@ -4,6 +4,7 @@ range Itens = 1..n;
 
 int W = 35;
 
+//valores aleatórios:
 int peso[Itens] = [2, 1, 5, 4, 4, 3, 2, 9, 2, 10];
 int valor[Itens] = [64, 14, 13, 21, 37, 39, 74, 87, 13, 81];
 

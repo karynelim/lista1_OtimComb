@@ -25,7 +25,7 @@ minimize
 
 // Restrições
 subject to {
-  // A quantidade enviada por cada fábrica não pode ultrapassar sua oferta
+  // Quantidade enviada por cada fábrica não pode ultrapassar sua oferta
   forall(i in F)
     sum(j in D) x[i][j] <= oferta[i];
 
